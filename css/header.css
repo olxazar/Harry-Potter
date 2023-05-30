@@ -1,0 +1,82 @@
+.header {
+  max-width: 688px;
+  margin: 0 auto;
+  padding: 64px 0 40px;
+}
+.header__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.header__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  color: #000000;
+}
+.header__welcome {
+  margin-bottom: 48px;
+}
+.header__input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.name__input {
+  width: 452px;
+  height: 38px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+.school__input {
+  margin: 0 auto;
+  width: 216px;
+  height: 38px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 0 0 0 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #818182;
+}
+
+.school {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #818182;
+}
+
+.line {
+  height: 2px;
+  background: #dddfe2;
+  margin-bottom: 40px;
+}

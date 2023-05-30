@@ -1,0 +1,34 @@
+.main {
+  max-width: 688px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 19px;
+  row-gap: 22px;
+}
+.card__date {
+  width: 334px;
+  height: 409px;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.div__img {
+  overflow: hidden;
+  max-height: 192px;
+}
+.date__img {
+  height: 192px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.info {
+  height: 217px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
